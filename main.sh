@@ -7,9 +7,9 @@ x="$(date | tr ' :,' '_')"
 mkdir -p "$x"
 
 # Copy Needed Files
-cp -r /var/lock "/home/micro/Desktop/Auto/$x"
-cp -r /var/run "/home/micro/Desktop/Auto/$x"
-cp -r /var/backups "/home/micro/Desktop/Auto/$x"
+cp -r /var/lock "/home/micro/Desktop/Repos-Git/Auto/$x"
+cp -r /var/run "/home/micro/Desktop/Repos-Git/Auto/$x"
+cp -r /var/backups "/home/micro/Desktop/Repos-Git/Auto/$x"
 
 git add .
 
